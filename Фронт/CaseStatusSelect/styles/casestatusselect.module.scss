@@ -1,0 +1,26 @@
+@import "../../../../styles/mixins";
+
+.project_item {
+  &::part(label) {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+
+.form {
+  min-width: 200px;
+  flex-shrink: 0;
+}
+
+.checked {
+  color: var(--color-green);
+}
+
+.draft {
+  color: var(--color-main-black-50);
+}
+
+.refinement {
+  color: var(--color-red);
+}

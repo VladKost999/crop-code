@@ -1,0 +1,37 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--color-bg-light);
+  padding: 20px;
+  border-radius: 40px;
+
+  &__linkblock {
+    margin-right: auto;
+  }
+
+  &__code {
+    font-size: var(--text-size-10);
+    color: var(--color-main-black-50);
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.date {
+  padding: 6px 8px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: var(--color-bg-gray);
+
+  &__text {
+    font-size: var(--text-size-05);
+  }
+}
